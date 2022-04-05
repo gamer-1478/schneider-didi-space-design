@@ -1,17 +1,37 @@
 .box {
+    justify-content: flex-start;
     align-items: center;
-    width: 50%;
+    width: 90%;
     border: 5px solid black;
     margin: 20px;
     font-size: 15pt;
     padding: 1em;
 }
 
-.container {
+.box2 {
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15pt;
+    min-height: 70vh;
+    min-width: 30vw;
+}
+
+.box1 {
+    align-items: center;
+    width: 90%;
+    border: 5px solid black;
+    margin: 20px;
+    font-size: 15pt;
+    padding: 1em;
     display: flex;
 }
 
-.box>h2 {
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
     font-size: 24pt;
     margin: 10px;
 }
